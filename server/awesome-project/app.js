@@ -24,10 +24,6 @@ const users = require ("./routes/users");
 const incidences = require ("./routes/incidences");
 const services = require ("./routes/services");
 
-
-
-
-
 mongoose.connect('mongodb://localhost/awesome-project');
 
 const app = express();
